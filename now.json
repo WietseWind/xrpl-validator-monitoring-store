@@ -1,0 +1,12 @@
+{
+    "version": 2,
+    "name": "now-xrplvalidator-stats",
+    "builds": [
+        { "src": "**/*.js", "use": "@now/node" }
+    ],
+	"env": {
+		"developer": "@developer",
+		"algolia_appid": "@algolia_appid",
+		"algolia_apikey": "@algolia_apikey"
+	}
+}
