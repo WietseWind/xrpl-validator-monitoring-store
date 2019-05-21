@@ -1,12 +1,13 @@
 {
     "version": 2,
-    "name": "now-xrplvalidator-stats",
+    "name": "validatormon",
     "builds": [
         { "src": "**/*.js", "use": "@now/node" }
     ],
 	"env": {
 		"developer": "@developer",
-		"algolia_appid": "@algolia_appid",
-		"algolia_apikey": "@algolia_apikey"
+		"mysql_pass": "@mysql_pass",
+		"mysql_key": "@mysql_key",
+		"mysql_cert": "@mysql_cert"
 	}
 }

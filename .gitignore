@@ -1,2 +1,4 @@
 /node_modules/
 /deploy
+/certs/
+.DS_Store
